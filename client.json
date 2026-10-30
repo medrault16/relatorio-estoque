@@ -1,15 +1,1 @@
-{
-    "client_id":  "https://medrault16.github.io/relatorio-estoque/client.json",
-    "client_name":  "Relatório de Estoque",
-    "redirect_uris":  [
-                          "http://localhost:8080/callback"
-                      ],
-    "grant_types":  [
-                        "authorization_code",
-                        "refresh_token"
-                    ],
-    "response_types":  [
-                           "code"
-                       ],
-    "token_endpoint_auth_method":  "none"
-}
+{"client_id":"https://medrault16.github.io/relatorio-estoque/client.json","client_name":"Relatorio de Estoque","client_uri":"https://medrault16.github.io/relatorio-estoque/","redirect_uris":["http://localhost:8080/callback","http://127.0.0.1:8080/callback","http://localhost/callback","http://127.0.0.1/callback"],"grant_types":["authorization_code","refresh_token"],"response_types":["code"],"token_endpoint_auth_method":"none"}
